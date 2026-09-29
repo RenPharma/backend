@@ -1,4 +1,4 @@
-#Dockerfile for QC Service
+# Backend service container image.
 FROM eclipse-temurin:17-jre
 WORKDIR /app
 RUN groupadd -r pharma && useradd -r -g pharma pharma
